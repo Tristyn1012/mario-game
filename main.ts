@@ -500,7 +500,7 @@ function RunLevel (LevelNum: number) {
             `)
         scene.setBackgroundColor(2)
     } else {
-        game.setGameOverMessage(true, "Thank You Mario, Peach As Saved.")
+        game.gameOver(true)
     }
     tiles.placeOnRandomTile(Mario, assets.tile`Houses 1985`)
 }
